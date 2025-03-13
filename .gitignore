@@ -1,0 +1,36 @@
+# Ignore dataset files
+/data/raw/
+data/raw/*
+
+# Ignore trained models
+/models/
+models/*
+
+# Ignore processed data (optional - remove if you want to track it)
+/data/processed/
+data/processed/*
+
+# Python 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.flaskenv
+.python_version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs and temporary files
+*.log
+.tmp/
+*.swp
+.*.sw?
+
+# Virtual environments
+venv/
+.venv/
